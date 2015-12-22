@@ -5,7 +5,6 @@ pkgdesc="Video conferencing tool"
 arch=("i686" "x86_64")
 url="https://www.daviko.com/placecam/"
 license=(custom)
-conflicts=("dropbox-experimental")
 
 source_i686=("https://www.daviko.com/software/PlaceCam_v${pkgver}_i386.tar.gz")
 source_x86_64=("https://www.daviko.com/software/PlaceCam_v${pkgver}_x86_64.tar.gz")
