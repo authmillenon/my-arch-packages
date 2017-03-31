@@ -1,16 +1,14 @@
 pkgname=placecam
-pkgver=4.3.2
+pkgver=4.6.1
 pkgrel=1
 pkgdesc="Video conferencing tool"
-arch=("i686" "x86_64")
+arch=("x86_64")
 url="https://www.daviko.com/placecam/"
 license=(custom)
 
-source_i686=("https://www.daviko.com/software/PlaceCam_v${pkgver}_i386.tar.gz")
 source_x86_64=("https://www.daviko.com/software/PlaceCam_v${pkgver}_x86_64.tar.gz")
 
-sha256sums_i686=('7506edd4928d17a88060162c63b53309da1552cb7a7f3a03d894bb031d279059')
-sha256sums_x86_64=('7e12026a389ea9306860e5ff54dc803c25fa1cd27955c86f27a14b558015c4fc')
+sha256sums_x86_64=('1f8dd8991ccebc359b57ce8f6fc6c8246abc2e3277aa476ee81fa1ab45891031')
 
 package() {
     install -d "${pkgdir}/opt"
